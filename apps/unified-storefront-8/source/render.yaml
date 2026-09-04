@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: nxs-unified-storefront
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /federation-tour.html
+        destination: /federation-tour.html
+      - type: rewrite
+        source: /sovereign-token.html
+        destination: /sovereign-token.html
+      - type: rewrite
+        source: /agent-zero.html
+        destination: /agent-zero.html
+      - type: rewrite
+        source: /aria.html
+        destination: /aria.html
+      - type: rewrite
+        source: /roger-ai.html
+        destination: /roger-ai.html
+      - type: rewrite
+        source: /university.html
+        destination: /university.html
+      - type: rewrite
+        source: /join.html
+        destination: /join.html
+      - type: rewrite
+        source: /*
+        destination: /index.html
