@@ -1,135 +1,314 @@
 {
-  "vault_timestamp": "2026-09-04T14:08:02.899787Z",
-  "total_apps": 10,
-  "apps_with_rendered_html": 6,
-  "apps_loading_page_only": 3,
-  "crawl_quality": {
-    "unified-storefront-8": {
-      "file": "crawl_unified-storefront-8.html",
-      "size_bytes": 9078,
-      "has_rendered_content": false
+  "vault_timestamp": "2026-09-04T14:21:42.064102Z",
+  "total_platform_jobs": 35,
+  "jobs_captured": 29,
+  "jobs_404_inaccessible": 11,
+  "inaccessible_jobs": [
+    "agent-framework-23",
+    "waiting-on-me",
+    "last-dollars",
+    "nextxus-automation",
+    "humancodex-studio-1",
+    "humancodex-studio",
+    "truth-studio-1",
+    "nexus-flipboard",
+    "identify-my-app",
+    "nextxus-media",
+    "consciousness-feed"
+  ],
+  "captured_trajectories": {
+    "08a1e761": {
+      "file": "trajectory_08a1e761.md",
+      "size": 34206
     },
-    "federation-hub-13": {
-      "file": "crawl_federation-hub-13.html",
-      "size_bytes": 19683,
-      "has_rendered_content": true
+    "382d018d": {
+      "file": "trajectory_382d018d.md",
+      "size": 25393
+    },
+    "57d9594e": {
+      "file": "trajectory_57d9594e.md",
+      "size": 8394
+    },
+    "5c865009": {
+      "file": "trajectory_5c865009.md",
+      "size": 8389
+    },
+    "adf61c10": {
+      "file": "trajectory_adf61c10.md",
+      "size": 30919
     },
     "ai-course-hub-585": {
-      "file": "crawl_ai-course-hub-585.html",
-      "size_bytes": 9075,
-      "has_rendered_content": false
-    },
-    "federation-hub-7": {
-      "file": "crawl_federation-hub-7.html",
-      "size_bytes": 9074,
-      "has_rendered_content": false
-    },
-    "prompt-command-hub": {
-      "file": "crawl_prompt-command-hub.html",
-      "size_bytes": 25720,
-      "has_rendered_content": true
-    },
-    "regent-node": {
-      "file": "crawl_regent-node.html",
-      "size_bytes": 18030,
-      "has_rendered_content": true
+      "file": "trajectory_ai-course-hub-585.md",
+      "size": 20524
     },
     "ai-minds-lab": {
-      "file": "crawl_ai-minds-lab.html",
-      "size_bytes": 80121,
-      "has_rendered_content": true
+      "file": "trajectory_ai-minds-lab.md",
+      "size": 27424
+    },
+    "calm-interface-6": {
+      "file": "trajectory_calm-interface-6.md",
+      "size": 33173
+    },
+    "cathedral": {
+      "file": "trajectory_cathedral.md",
+      "size": 18035
+    },
+    "cern-to-codex": {
+      "file": "trajectory_cern-to-codex.md",
+      "size": 15741
+    },
+    "command-panel-2": {
+      "file": "trajectory_command-panel-2.md",
+      "size": 23145
+    },
+    "consult-hub-979": {
+      "file": "trajectory_consult-hub-979.md",
+      "size": 11965
+    },
+    "federation-hub-13": {
+      "file": "trajectory_federation-hub-13.md",
+      "size": 41710
+    },
+    "federation-hub-7": {
+      "file": "trajectory_federation-hub-7.md",
+      "size": 20358
+    },
+    "federation-studio": {
+      "file": "trajectory_federation-studio.md",
+      "size": 23956
+    },
+    "hundred-dash": {
+      "file": "trajectory_hundred-dash.md",
+      "size": 29208
+    },
+    "missing-creds": {
+      "file": "trajectory_missing-creds.md",
+      "size": 32317
+    },
+    "naughty-matsumoto-8": {
+      "file": "trajectory_naughty-matsumoto-8.md",
+      "size": 18618
+    },
+    "nextxus-core-1": {
+      "file": "trajectory_nextxus-core-1.md",
+      "size": 35117
+    },
+    "nextxus-core": {
+      "file": "trajectory_nextxus-core.md",
+      "size": 19072
+    },
+    "nextxus-staging": {
+      "file": "trajectory_nextxus-staging.md",
+      "size": 16917
+    },
+    "nextxus-truth": {
+      "file": "trajectory_nextxus-truth.md",
+      "size": 14696
+    },
+    "prompt-command-hub": {
+      "file": "trajectory_prompt-command-hub.md",
+      "size": 22212
+    },
+    "radio-companion-3": {
+      "file": "trajectory_radio-companion-3.md",
+      "size": 8378
+    },
+    "regent-node": {
+      "file": "trajectory_regent-node.md",
+      "size": 20291
     },
     "sovereign-herald": {
-      "file": "crawl_sovereign-herald.html",
-      "size_bytes": 18232,
-      "has_rendered_content": true
+      "file": "trajectory_sovereign-herald.md",
+      "size": 26737
     },
     "truth-gate-core": {
-      "file": "crawl_truth-gate-core.html",
-      "size_bytes": 80305,
-      "has_rendered_content": true
+      "file": "trajectory_truth-gate-core.md",
+      "size": 19931
+    },
+    "unified-storefront-8": {
+      "file": "trajectory_unified-storefront-8.md",
+      "size": 32770
+    },
+    "visual-store-39": {
+      "file": "trajectory_visual-store-39.md",
+      "size": 28852
     }
   },
-  "app_index": {
-    "regent-node": {
-      "slug": "regent-node",
-      "preview_url": "https://regent-node.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 10,
-      "total_ecu": 25.15,
-      "source_file": "status_regent-node.json"
+  "all_jobs": [
+    {
+      "id": "382d018d",
+      "title": "Aria Studio / The Heart",
+      "created": "2026-03-03"
     },
-    "federation-hub-7": {
-      "slug": "federation-hub-7",
-      "preview_url": "https://federation-hub-7.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 1,
-      "total_ecu": 4381.63,
-      "source_file": "status_5c865009.json"
+    {
+      "id": "adf61c10",
+      "title": "Oracle Storefront / The Face",
+      "created": "2026-06-20"
     },
-    "truth-gate-core": {
-      "slug": "truth-gate-core",
-      "preview_url": "https://truth-gate-core.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 7,
-      "total_ecu": 6533.81,
-      "source_file": "job1_status.json"
+    {
+      "id": "71c3ef38",
+      "title": "nextxus-truth",
+      "created": "2026-05-31"
     },
-    "sovereign-herald": {
-      "slug": "sovereign-herald",
-      "preview_url": "https://sovereign-herald.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 10,
-      "total_ecu": 22.07,
-      "source_file": "status_sovereign-herald.json"
+    {
+      "id": "397191a7",
+      "title": "missing-creds",
+      "created": "2026-05-13"
     },
-    "ai-minds-lab": {
-      "slug": "ai-minds-lab",
-      "preview_url": "https://ai-minds-lab.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 7,
-      "total_ecu": 5202.89,
-      "source_file": "status_382d018d.json"
+    {
+      "id": "692b81db",
+      "title": "regent-node",
+      "created": "2026-07-30"
     },
-    "federation-hub-13": {
-      "slug": "federation-hub-13",
-      "preview_url": "https://federation-hub-13.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 10,
-      "total_ecu": 113.38,
-      "source_file": "status_federation-hub-13.json"
+    {
+      "id": "bc77c7c7",
+      "title": "nextxus-core-1",
+      "created": "2026-06-30"
     },
-    "08a1e761": {
-      "slug": "08a1e761",
-      "preview_url": "https://08a1e761-b202-4234-917b-20130c9f61a5.preview.emergentagent.com/",
-      "status": "stopped",
-      "trajectory_count": 20,
-      "total_ecu": 0,
-      "source_file": "status_08a1e761.json"
+    {
+      "id": "7ffbe0f9",
+      "title": "consult-hub-979",
+      "created": "2026-03-01"
     },
-    "ai-course-hub-585": {
-      "slug": "ai-course-hub-585",
-      "preview_url": "https://ai-course-hub-585.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 1,
-      "total_ecu": 3121.3,
-      "source_file": "status_57d9594e.json"
+    {
+      "id": "af589bd5",
+      "title": "hundred-dash",
+      "created": "2026-06-06"
     },
-    "prompt-command-hub": {
-      "slug": "prompt-command-hub",
-      "preview_url": "https://prompt-command-hub.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 1,
-      "total_ecu": 27.21,
-      "source_file": "status_prompt-command-hub.json"
+    {
+      "id": "9b1c31f5",
+      "title": "calm-interface-6",
+      "created": "2026-05-30"
     },
-    "unified-storefront-8": {
-      "slug": "unified-storefront-8",
-      "preview_url": "https://unified-storefront-8.preview.emergentagent.com/",
-      "status": "paused",
-      "trajectory_count": 10,
-      "total_ecu": 2747.78,
-      "source_file": "status_adf61c10.json"
+    {
+      "id": "ecefa94b",
+      "title": "radio-companion-3",
+      "created": "2026-07-22"
+    },
+    {
+      "id": "75d0056e",
+      "title": "visual-store-39",
+      "created": "2026-05-18"
+    },
+    {
+      "id": "52af8b9f",
+      "title": "nextxus-core",
+      "created": "2026-03-11"
+    },
+    {
+      "id": "1a099bee",
+      "title": "sovereign-herald",
+      "created": "2026-07-29"
+    },
+    {
+      "id": "57d9594e",
+      "title": "NextXus University / Scholar",
+      "created": "2026-04-01"
+    },
+    {
+      "id": "1ca81ce0",
+      "title": "federation-hub-13",
+      "created": "2026-08-17"
+    },
+    {
+      "id": "3b5834c2",
+      "title": "NextXus Core / The Cathedral",
+      "created": "2026-05-17"
+    },
+    {
+      "id": "08a1e761",
+      "title": "admin-throne",
+      "created": "2026-07-15"
+    },
+    {
+      "id": "5c865009",
+      "title": "Federation Hub / Library",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "9568e8f7",
+      "title": "nextxus-staging",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "42647b7e",
+      "title": "prompt-command-hub",
+      "created": "2026-08-31"
+    },
+    {
+      "id": "aecab887",
+      "title": "command-panel-2",
+      "created": "2026-03-12"
+    },
+    {
+      "id": "83d077ad",
+      "title": "federation-studio",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "8df69c15",
+      "title": "agent-framework-23",
+      "created": "2026-05-17"
+    },
+    {
+      "id": "6d3dc4ea",
+      "title": "waiting-on-me",
+      "created": "2026-07-02"
+    },
+    {
+      "id": "bdd90a35",
+      "title": "last-dollars",
+      "created": "2026-07-25"
+    },
+    {
+      "id": "ab403a2c",
+      "title": "naughty-matsumoto-8",
+      "created": "2026-07-07"
+    },
+    {
+      "id": "26eae9da",
+      "title": "nextxus-automation",
+      "created": "2026-06-14"
+    },
+    {
+      "id": "50890ccc",
+      "title": "humancodex-studio-1",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "798f69ff",
+      "title": "humancodex-studio",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "6f621ea6",
+      "title": "truth-studio-1",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "a989ca15",
+      "title": "nexus-flipboard",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "b6049fe1",
+      "title": "identify-my-app",
+      "created": "2026-08-02"
+    },
+    {
+      "id": "951e054b",
+      "title": "cern-to-codex",
+      "created": "2026-08-12"
+    },
+    {
+      "id": "601d5794",
+      "title": "nextxus-media",
+      "created": "2026-08-01"
+    },
+    {
+      "id": "01c4e749",
+      "title": "consciousness-feed",
+      "created": "2026-08-01"
     }
-  }
+  ]
 }
