@@ -1,21 +1,17 @@
 {
-  "vault_timestamp": "2026-09-04T14:21:42.064102Z",
+  "vault_timestamp": "2026-09-04T14:29:05.582368Z",
   "total_platform_jobs": 35,
-  "jobs_captured": 29,
-  "jobs_404_inaccessible": 11,
-  "inaccessible_jobs": [
-    "agent-framework-23",
-    "waiting-on-me",
-    "last-dollars",
-    "nextxus-automation",
-    "humancodex-studio-1",
-    "humancodex-studio",
-    "truth-studio-1",
-    "nexus-flipboard",
-    "identify-my-app",
-    "nextxus-media",
-    "consciousness-feed"
+  "total_trajectories": 40,
+  "current_35_captured": 35,
+  "legacy_jobs_captured": 5,
+  "legacy_job_slugs": [
+    "ai-course-hub-585",
+    "ai-minds-lab",
+    "federation-hub-7",
+    "truth-gate-core",
+    "unified-storefront-8"
   ],
+  "all_35_jobs_status": "COMPLETE - all 35 jobs captured",
   "captured_trajectories": {
     "08a1e761": {
       "file": "trajectory_08a1e761.md",
@@ -36,6 +32,10 @@
     "adf61c10": {
       "file": "trajectory_adf61c10.md",
       "size": 30919
+    },
+    "agent-framework-23": {
+      "file": "trajectory_agent-framework-23.md",
+      "size": 56983
     },
     "ai-course-hub-585": {
       "file": "trajectory_ai-course-hub-585.md",
@@ -61,6 +61,10 @@
       "file": "trajectory_command-panel-2.md",
       "size": 23145
     },
+    "consciousness-feed": {
+      "file": "trajectory_consciousness-feed.md",
+      "size": 8356
+    },
     "consult-hub-979": {
       "file": "trajectory_consult-hub-979.md",
       "size": 11965
@@ -77,9 +81,25 @@
       "file": "trajectory_federation-studio.md",
       "size": 23956
     },
+    "humancodex-studio-1": {
+      "file": "trajectory_humancodex-studio-1.md",
+      "size": 8381
+    },
+    "humancodex-studio": {
+      "file": "trajectory_humancodex-studio.md",
+      "size": 8262
+    },
     "hundred-dash": {
       "file": "trajectory_hundred-dash.md",
       "size": 29208
+    },
+    "identify-my-app": {
+      "file": "trajectory_identify-my-app.md",
+      "size": 597
+    },
+    "last-dollars": {
+      "file": "trajectory_last-dollars.md",
+      "size": 1666
     },
     "missing-creds": {
       "file": "trajectory_missing-creds.md",
@@ -89,6 +109,10 @@
       "file": "trajectory_naughty-matsumoto-8.md",
       "size": 18618
     },
+    "nextxus-automation": {
+      "file": "trajectory_nextxus-automation.md",
+      "size": 33381
+    },
     "nextxus-core-1": {
       "file": "trajectory_nextxus-core-1.md",
       "size": 35117
@@ -97,6 +121,10 @@
       "file": "trajectory_nextxus-core.md",
       "size": 19072
     },
+    "nextxus-media": {
+      "file": "trajectory_nextxus-media.md",
+      "size": 36596
+    },
     "nextxus-staging": {
       "file": "trajectory_nextxus-staging.md",
       "size": 16917
@@ -104,6 +132,10 @@
     "nextxus-truth": {
       "file": "trajectory_nextxus-truth.md",
       "size": 14696
+    },
+    "nexus-flipboard": {
+      "file": "trajectory_nexus-flipboard.md",
+      "size": 8466
     },
     "prompt-command-hub": {
       "file": "trajectory_prompt-command-hub.md",
@@ -125,6 +157,10 @@
       "file": "trajectory_truth-gate-core.md",
       "size": 19931
     },
+    "truth-studio-1": {
+      "file": "trajectory_truth-studio-1.md",
+      "size": 7946
+    },
     "unified-storefront-8": {
       "file": "trajectory_unified-storefront-8.md",
       "size": 32770
@@ -132,6 +168,10 @@
     "visual-store-39": {
       "file": "trajectory_visual-store-39.md",
       "size": 28852
+    },
+    "waiting-on-me": {
+      "file": "trajectory_waiting-on-me.md",
+      "size": 961
     }
   },
   "all_jobs": [

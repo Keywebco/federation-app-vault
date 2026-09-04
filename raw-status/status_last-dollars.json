@@ -1,0 +1,80 @@
+{
+  "preview": {
+    "preview_url": "https://bdd90a35-1a78-4f10-981f-fcef55a7a412.preview.emergentagent.com/",
+    "env_slug": null
+  },
+  "progress": [
+    {
+      "role": "user",
+      "text": "It's my last $20",
+      "step_num": 0,
+      "created_at": "2026-07-25T21:57:22.037758Z"
+    },
+    {
+      "role": "assistant",
+      "text": "[tool: Ask human] Ha, no pressure then! Let's make that $20 count.",
+      "step_num": 1,
+      "created_at": "2026-07-25T21:57:27.248617Z"
+    },
+    {
+      "role": "user",
+      "text": "320 tokens now. Might be enough to get most of it working",
+      "step_num": 2,
+      "created_at": "2026-07-25T21:58:34.216239Z"
+    },
+    {
+      "role": "user",
+      "text": "320 tokens now. Might be enough to get most of it working",
+      "step_num": 3,
+      "created_at": "2026-07-25T21:58:35.452481Z"
+    },
+    {
+      "role": "assistant",
+      "text": "Sounds like you're working with a tight budget. Help me out with the core idea so we don't waste any of those tokens.",
+      "step_num": 4,
+      "created_at": "2026-07-25T21:58:43.585722Z"
+    },
+    {
+      "role": "user",
+      "text": "Is the library empty?",
+      "step_num": 5,
+      "created_at": "2026-07-25T22:01:59.880418Z"
+    },
+    {
+      "role": "user",
+      "text": "Is the library empty?",
+      "step_num": 6,
+      "created_at": "2026-07-25T22:02:01.376778Z"
+    },
+    {
+      "role": "assistant",
+      "text": "Not sure I'm following. Let's reset: in a plain sentence, what do you want me to help you build or figure out today?",
+      "step_num": 7,
+      "created_at": "2026-07-25T22:02:09.210331Z"
+    },
+    {
+      "role": "user",
+      "text": "Where the 200 plus documents and knowledge base of the library are would be a priority I think",
+      "step_num": 8,
+      "created_at": "2026-07-25T22:05:58.05291Z"
+    },
+    {
+      "role": "user",
+      "text": "Where the 200 plus documents and knowledge base of the library are would be a priority I think",
+      "step_num": 9,
+      "created_at": "2026-07-25T22:05:59.260813Z"
+    },
+    {
+      "role": "assistant",
+      "text": "Sounds like you want a document library / knowledge base with 200+ documents, probably searchable and AI-powered.",
+      "step_num": 10,
+      "created_at": "2026-07-25T22:06:08.544197Z"
+    }
+  ],
+  "status": {
+    "agent_status": false,
+    "agent_status_new": "stopped",
+    "pod_state_display": null,
+    "slug": null
+  }
+}

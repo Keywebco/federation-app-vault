@@ -1,0 +1,26 @@
+{
+  "preview": {
+    "preview_url": "https://b6049fe1-b624-44ad-85ea-2edc69c88691.preview.emergentagent.com/",
+    "env_slug": null
+  },
+  "progress": [
+    {
+      "role": "user",
+      "text": "Which is my app",
+      "step_num": 0,
+      "created_at": "2026-08-02T01:18:49.814774Z"
+    },
+    {
+      "role": "assistant",
+      "text": "[tool: Ask human] I don't have context yet on what app you want to build. Could you share: What's the app idea / core problem it solves? Who is the target user? Platform preference? Any must-have features?",
+      "step_num": 1,
+      "created_at": "2026-08-02T01:18:54.297176Z"
+    }
+  ],
+  "status": {
+    "agent_status": false,
+    "agent_status_new": "stopped",
+    "pod_state_display": null,
+    "slug": null
+  }
+}
