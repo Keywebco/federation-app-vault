@@ -1,49 +1,70 @@
-# Federation App Vault — Emergency Backup
-## Captured: 2026-09-04 14:08 UTC
+# Federation App Vault
 
-This vault contains extracted build trajectories and crawled frontend HTML from all 
-Emergent App Builder jobs in the NextXus Federation project.
+**Emergency backup of all Emergent App Builder jobs for Keywebco/NextXus Federation.**
 
-### Extraction Method
-- **Job Status API**: Full build trajectory, metadata, ECU costs, step-by-step build logs
-- **Web Crawl**: Frontend HTML as served from preview URLs (paused apps return Emergent's loading wrapper; running apps return actual rendered content)
-- **Limitation**: Emergent App Builder does not expose a direct file-reading API, so actual source files (individual .js, .py, .css) cannot be extracted. The trajectory logs contain the complete build history including all code changes the builder agent made.
+## Summary
+- **Total Platform Jobs**: 35
+- **Jobs Successfully Captured**: 29
+- **Jobs Inaccessible (404)**: 11
+- **Vault Timestamp**: 2026-09-04 14:21 UTC
 
-### App Inventory
+## Captured Jobs (Trajectory Files)
 
-| App Slug | Status | Build Steps | ECU Spent | Rendered HTML | Preview URL |
-|----------|--------|-------------|-----------|---------------|-------------|
-| 08a1e761 | stopped | 20 | 0 | loader-only | https://08a1e761-b202-4234-917b-20130c9f61a5.preview.emergentagent.com/ |
-| ai-course-hub-585 | paused | 1 | 3121.3 | loader-only | https://ai-course-hub-585.preview.emergentagent.com/ |
-| ai-minds-lab | paused | 7 | 5202.89 | YES | https://ai-minds-lab.preview.emergentagent.com/ |
-| federation-hub-13 | paused | 10 | 113.38 | YES | https://federation-hub-13.preview.emergentagent.com/ |
-| federation-hub-7 | paused | 1 | 4381.63 | loader-only | https://federation-hub-7.preview.emergentagent.com/ |
-| prompt-command-hub | paused | 1 | 27.21 | YES | https://prompt-command-hub.preview.emergentagent.com/ |
-| regent-node | paused | 10 | 25.15 | YES | https://regent-node.preview.emergentagent.com/ |
-| sovereign-herald | paused | 10 | 22.07 | YES | https://sovereign-herald.preview.emergentagent.com/ |
-| truth-gate-core | paused | 7 | 6533.81 | YES | https://truth-gate-core.preview.emergentagent.com/ |
-| unified-storefront-8 | paused | 10 | 2747.78 | loader-only | https://unified-storefront-8.preview.emergentagent.com/ |
+| # | File | Size |
+|---|------|------|
+| 1 | `trajectory_08a1e761.md` | 34,206 bytes |
+| 2 | `trajectory_382d018d.md` | 25,393 bytes |
+| 3 | `trajectory_57d9594e.md` | 8,394 bytes |
+| 4 | `trajectory_5c865009.md` | 8,389 bytes |
+| 5 | `trajectory_adf61c10.md` | 30,919 bytes |
+| 6 | `trajectory_ai-course-hub-585.md` | 20,524 bytes |
+| 7 | `trajectory_ai-minds-lab.md` | 27,424 bytes |
+| 8 | `trajectory_calm-interface-6.md` | 33,173 bytes |
+| 9 | `trajectory_cathedral.md` | 18,035 bytes |
+| 10 | `trajectory_cern-to-codex.md` | 15,741 bytes |
+| 11 | `trajectory_command-panel-2.md` | 23,145 bytes |
+| 12 | `trajectory_consult-hub-979.md` | 11,965 bytes |
+| 13 | `trajectory_federation-hub-13.md` | 41,710 bytes |
+| 14 | `trajectory_federation-hub-7.md` | 20,358 bytes |
+| 15 | `trajectory_federation-studio.md` | 23,956 bytes |
+| 16 | `trajectory_hundred-dash.md` | 29,208 bytes |
+| 17 | `trajectory_missing-creds.md` | 32,317 bytes |
+| 18 | `trajectory_naughty-matsumoto-8.md` | 18,618 bytes |
+| 19 | `trajectory_nextxus-core.md` | 19,072 bytes |
+| 20 | `trajectory_nextxus-core-1.md` | 35,117 bytes |
+| 21 | `trajectory_nextxus-staging.md` | 16,917 bytes |
+| 22 | `trajectory_nextxus-truth.md` | 14,696 bytes |
+| 23 | `trajectory_prompt-command-hub.md` | 22,212 bytes |
+| 24 | `trajectory_radio-companion-3.md` | 8,378 bytes |
+| 25 | `trajectory_regent-node.md` | 20,291 bytes |
+| 26 | `trajectory_sovereign-herald.md` | 26,737 bytes |
+| 27 | `trajectory_truth-gate-core.md` | 19,931 bytes |
+| 28 | `trajectory_unified-storefront-8.md` | 32,770 bytes |
+| 29 | `trajectory_visual-store-39.md` | 28,852 bytes |
 
-### File Structure
+## Inaccessible Jobs (404 - Listed in API but data not retrievable)
 
-```
-/
-├── README.md                      # This file
-├── VAULT_INVENTORY.json           # Machine-readable inventory
-├── trajectories/
-│   ├── trajectory_<slug>.md       # Full build log per app
-├── crawled-html/
-│   ├── crawl_<slug>.html          # Rendered frontend HTML per app
-├── raw-status/
-│   ├── status_<slug>.json         # Raw API response per app
-```
+These jobs appear in the platform's job list but return 404 when queried:
 
-### Recovery Notes
-- Trajectory files contain the complete builder agent conversation, including all code modifications, file creates, bash commands, and deployment readiness checks.
-- To reconstruct an app: read the trajectory, extract the code blocks/file contents from the build steps, and rebuild.
-- Apps with "loader-only" HTML had their servers paused at capture time. Wake the server and re-crawl to get rendered content.
+- `agent-framework-23`
+- `waiting-on-me`
+- `last-dollars`
+- `nextxus-automation`
+- `humancodex-studio-1`
+- `humancodex-studio`
+- `truth-studio-1`
+- `nexus-flipboard`
+- `identify-my-app`
+- `nextxus-media`
+- `consciousness-feed`
 
-### Federation Identity
-- **Owner:** Roger Keyserling (keywebco@gmail.com)
-- **Project:** NextXus Federation — 200-year consciousness preservation mandate
-- **Repository:** github.com/Keywebco/federation-app-vault
+## Structure
+
+Each `trajectory_*.md` file contains:
+- Job metadata (status, preview URL, ECU spent, creation date)
+- Full build trajectory (all assistant/user conversation steps)
+- Code changes and deployment notes
+
+## Note
+This vault was created as an emergency backup to preserve build history
+and code artifacts for the NextXus Federation's App Builder portfolio.
