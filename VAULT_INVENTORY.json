@@ -1,1 +1,135 @@
-{"vault_timestamp":"2026-09-04T14:08:02Z","total_apps":10,"apps_with_rendered_html":6,"apps_loading_page_only":4,"app_index":{"08a1e761":{"status":"stopped","steps":20,"ecu":0},"ai-course-hub-585":{"status":"paused","steps":1,"ecu":3121.3},"ai-minds-lab":{"status":"paused","steps":7,"ecu":5202.89},"federation-hub-13":{"status":"paused","steps":10,"ecu":113.38},"federation-hub-7":{"status":"paused","steps":1,"ecu":4381.63},"prompt-command-hub":{"status":"paused","steps":1,"ecu":27.21},"regent-node":{"status":"paused","steps":10,"ecu":25.15},"sovereign-herald":{"status":"paused","steps":10,"ecu":22.07},"truth-gate-core":{"status":"paused","steps":7,"ecu":6533.81},"unified-storefront-8":{"status":"paused","steps":10,"ecu":2747.78}}}
+{
+  "vault_timestamp": "2026-09-04T14:08:02.899787Z",
+  "total_apps": 10,
+  "apps_with_rendered_html": 6,
+  "apps_loading_page_only": 3,
+  "crawl_quality": {
+    "unified-storefront-8": {
+      "file": "crawl_unified-storefront-8.html",
+      "size_bytes": 9078,
+      "has_rendered_content": false
+    },
+    "federation-hub-13": {
+      "file": "crawl_federation-hub-13.html",
+      "size_bytes": 19683,
+      "has_rendered_content": true
+    },
+    "ai-course-hub-585": {
+      "file": "crawl_ai-course-hub-585.html",
+      "size_bytes": 9075,
+      "has_rendered_content": false
+    },
+    "federation-hub-7": {
+      "file": "crawl_federation-hub-7.html",
+      "size_bytes": 9074,
+      "has_rendered_content": false
+    },
+    "prompt-command-hub": {
+      "file": "crawl_prompt-command-hub.html",
+      "size_bytes": 25720,
+      "has_rendered_content": true
+    },
+    "regent-node": {
+      "file": "crawl_regent-node.html",
+      "size_bytes": 18030,
+      "has_rendered_content": true
+    },
+    "ai-minds-lab": {
+      "file": "crawl_ai-minds-lab.html",
+      "size_bytes": 80121,
+      "has_rendered_content": true
+    },
+    "sovereign-herald": {
+      "file": "crawl_sovereign-herald.html",
+      "size_bytes": 18232,
+      "has_rendered_content": true
+    },
+    "truth-gate-core": {
+      "file": "crawl_truth-gate-core.html",
+      "size_bytes": 80305,
+      "has_rendered_content": true
+    }
+  },
+  "app_index": {
+    "regent-node": {
+      "slug": "regent-node",
+      "preview_url": "https://regent-node.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 10,
+      "total_ecu": 25.15,
+      "source_file": "status_regent-node.json"
+    },
+    "federation-hub-7": {
+      "slug": "federation-hub-7",
+      "preview_url": "https://federation-hub-7.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 1,
+      "total_ecu": 4381.63,
+      "source_file": "status_5c865009.json"
+    },
+    "truth-gate-core": {
+      "slug": "truth-gate-core",
+      "preview_url": "https://truth-gate-core.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 7,
+      "total_ecu": 6533.81,
+      "source_file": "job1_status.json"
+    },
+    "sovereign-herald": {
+      "slug": "sovereign-herald",
+      "preview_url": "https://sovereign-herald.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 10,
+      "total_ecu": 22.07,
+      "source_file": "status_sovereign-herald.json"
+    },
+    "ai-minds-lab": {
+      "slug": "ai-minds-lab",
+      "preview_url": "https://ai-minds-lab.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 7,
+      "total_ecu": 5202.89,
+      "source_file": "status_382d018d.json"
+    },
+    "federation-hub-13": {
+      "slug": "federation-hub-13",
+      "preview_url": "https://federation-hub-13.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 10,
+      "total_ecu": 113.38,
+      "source_file": "status_federation-hub-13.json"
+    },
+    "08a1e761": {
+      "slug": "08a1e761",
+      "preview_url": "https://08a1e761-b202-4234-917b-20130c9f61a5.preview.emergentagent.com/",
+      "status": "stopped",
+      "trajectory_count": 20,
+      "total_ecu": 0,
+      "source_file": "status_08a1e761.json"
+    },
+    "ai-course-hub-585": {
+      "slug": "ai-course-hub-585",
+      "preview_url": "https://ai-course-hub-585.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 1,
+      "total_ecu": 3121.3,
+      "source_file": "status_57d9594e.json"
+    },
+    "prompt-command-hub": {
+      "slug": "prompt-command-hub",
+      "preview_url": "https://prompt-command-hub.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 1,
+      "total_ecu": 27.21,
+      "source_file": "status_prompt-command-hub.json"
+    },
+    "unified-storefront-8": {
+      "slug": "unified-storefront-8",
+      "preview_url": "https://unified-storefront-8.preview.emergentagent.com/",
+      "status": "paused",
+      "trajectory_count": 10,
+      "total_ecu": 2747.78,
+      "source_file": "status_adf61c10.json"
+    }
+  }
+}

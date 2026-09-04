@@ -1,0 +1,150 @@
+Extracted Information:
+Title: Loading...
+Description: Transform ideas into production-ready applications with AI. Build web apps, mobile platforms, and custom software through simple conversation, no coding required.
+
+Content (HTML):
+<!DOCTYPE html><html lang="en" class="light">
+<body>
+    <div id="contentFrame" src="https://app.emergent.sh/loading-preview?host=federation-hub-7.preview.emergentagent.com" allowfullscreen="" data-original-tag="iframe">
+    <!-- Prevent theme flash: Apply stored theme immediately before page renders -->
+    
+    <!-- Tracking allowlist — gates GTM/VWO/Rewardful/PartnerStack/Meta/TikTok Pixel to prod hosts only.
+         (For PartnerStack — an essential-category script — this host gate is the ONLY gate.)
+         Prevents third-party tracking scripts from firing on preview/CDN hosts (e.g. *.preview.emergentagent.com)
+         where our bundle is served as a wake-up page, which would attribute pixel events to user-preview domains. -->
+    
+    <!-- GDPR consent gate — synchronous, must run right after the host allowlist above and BEFORE
+         every GTM/gtag/pixel block below. Reads the edge verdict cookie (emergent_geo_consent:
+         "1" = consent required, "0" = not required; missing = FAIL-OPEN, i.e. NOT required) and the
+         user's choice cookie (emergent_consent, which carries per-category grants in `cats`).
+         PER-CATEGORY gate: each NON-Google script gates on host allowed AND its category's grant —
+           __emergentAdvertisingAllowed (Meta/TikTok/Rewardful),
+           __emergentAnalyticsAllowed (VWO). These stay fully blocked until consent.
+         PartnerStack is the exception: disclosed as ESSENTIAL (partner referral attribution), so it
+         boots on __emergentHostAllowed alone and no category grant gates it.
+         GOOGLE tags (Consent Mode v2 BASIC / opt-in) also load only AFTER consent — withheld entirely
+         until the relevant category is granted: GTM gates on __emergentGoogleTagsAllowed (host AND
+         advertising consent) and the Wingman GA4 gtag on __wingmanGoogleTagsAllowed (host AND analytics
+         consent). Consent Mode signals (default-denied -> per-category granted) below still govern
+         storage once a tag loads. __emergentTrackingAllowed is kept as the coarse host AND (advertising
+         OR analytics) signal for the gtmService dataLayer funnel.
+         PRECEDENCE: an explicit stored choice OUTRANKS the verdict and is honoured in every region.
+         Only a visitor with NO stored choice falls back to the verdict, so verdict "0" + no choice
+         (the 99% rest-of-world case, who never saw a banner) leaves every flag byte-for-byte at
+         today's values and pushes no Consent Mode calls (rest-of-world invariant preserved).
+         Mirrors isCategoryAllowed/getConsentCategories in src/lib/consent/consent.ts — keep the
+         readers in sync. -->
+    
+    
+    
+    <!-- Prevents PKCE `?code=` leaking to third parties via Referer. -->
+    
+    
+
+    <!-- DNS Prefetch and Preconnect for external services -->
+    <link rel="dns-prefetch" href="https://assets.emergent.sh/">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com/">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+    <link rel="preconnect" href="https://assets.emergent.sh/" crossorigin="">
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com/">
+    <link rel="preconnect" href="https://js.stripe.com/">
+    <link rel="preconnect" href="https://analytics.tiktok.com/">
+
+    <!-- Primary Meta Tags -->
+    <title>Emergent</title>
+    
+    
+    
+    
+
+    <!-- Open Graph / Facebook -->
+    
+    
+    
+    
+    
+    
+
+    <!-- Twitter -->
+    
+    
+    
+    
+    
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://app.emergent.sh/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="https://app.emergent.sh/site.webmanifest">
+
+    <!-- Preload cloud background only for light-mode users -->
+    <link rel="preload" as="image" type="image/webp" href="https://app.emergent.sh/backgrounds/light_cloud_bg.webp">
+
+    <!-- Fonts and Styles - Preconnect for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Istok+Web:wght@400&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&amp;display=swap" rel="stylesheet">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://emergent.sh/">
+    <!-- Google Tag Manager (GTM-NCCB99P9) — host allowlist AND advertising consent (see __emergentGoogleTagsAllowed).
+         Withheld entirely until consent, so the container's non-Google tags (Meta/TikTok) can no longer fire
+         before an opt-in. Exposed as an idempotent boot function so an in-session accept boots it without a
+         reload; the guard makes a parse-time load and a grant-time load safe to both run. -->
+    
+    <!-- Google tag (gtag.js) — Wingman GA4 (G-Y61DH5D90B). Wingman host allowlist AND analytics consent
+         (see __wingmanGoogleTagsAllowed). Withheld until consent; exposed as an idempotent boot function so
+         an in-session accept boots it without a reload. -->
+    
+    <!-- Conditionally load Rewardful for affiliate users only (advertising category). Idempotent boot
+         function so an in-session advertising accept loads it without a reload (mirrors __emergentBootMetaPixel). -->
+    
+    <!-- Start VWO Async SmartCode -->
+    
+    <!-- End VWO Async SmartCode -->
+    <!-- Add Google Identity Services script -->
+    
+    <!-- Paddle.js for checkout overlay (initialized in paddleService.ts with env token) -->
+    
+    <!-- Meta Pixel Code — advertising category. Withheld until consent; exposed as an idempotent boot
+         function so an in-session advertising accept boots it without a reload (mirrors __emergentBootGtm).
+         The __emergentMetaPixelBooted guard makes a parse-time load and a grant-time load safe to both run. -->
+    
+    <!-- End Meta Pixel Code -->
+    <!-- TikTok Pixel Code — advertising category. Withheld until consent; exposed as an idempotent boot
+         function so an in-session advertising accept boots it without a reload (mirrors __emergentBootGtm). -->
+    
+    <!-- End TikTok Pixel Code -->
+    <!-- Conditionally load PartnerStack for partner users only. ESSENTIAL category (partner referral
+         attribution is what makes a partner's own referral link work), so this boots on the host
+         allowlist alone and is NOT gated on the advertising grant. Still host-gated, to keep the
+         third-party script off preview/CDN hosts. Idempotent boot function retained so the loader
+         stays safe to call more than once. -->
+    
+    <!-- End PartnerStack -->
+    
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-CY1ylONl.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-f-NnfC9p.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-DX4ZIefg.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-KWcdNBLn.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-C8k2ZLFp.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-CCmSeHyw.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/index.mjs-cirehduK.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-DOErl27X.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/chunk-dUsthhUP.js">
+    <link rel="modulepreload" crossorigin="" href="https://app.emergent.sh/chunks/index.mjs-DMZFUa7S.js">
+    <link rel="stylesheet" crossorigin="" href="https://app.emergent.sh/assets/monaco-editor-BetWCQm5.css">
+    <link rel="stylesheet" crossorigin="" href="https://app.emergent.sh/assets/main-DmdkfhyD.css">
+    
+    
+  
+  
+    <div id="root"></div>
+    <!-- No GTM/Meta <noscript> iframes: they load before any JS, so the consent gate cannot reach them. -->
+  <div height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;" data-original-tag="iframe"></div>
+
+</div>
+    
+
+<div height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;" data-original-tag="iframe"></div>
+</body></html>
