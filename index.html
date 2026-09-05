@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sovereign backup vault of the NextXus HumanCodex Federation. All sites, content, and Federation assets stored as plain files. No platform dependency. No single point of failure." />
+  <meta name="robots" content="index, follow" />
+  <title>NextXus HumanCodex Federation — Sovereign Vault</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 18px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #e8e8e8;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: #a07fd4;
+      text-decoration: none;
+      border-bottom: 1px solid #7B5EA7;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    a:hover,
+    a:focus {
+      color: #c9aaff;
+      border-bottom-color: #c9aaff;
+      outline: none;
+    }
+
+    /* ── Layout ── */
+    .container {
+      width: 100%;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Header ── */
+    header {
+      background-color: #0f0f0f;
+      border-bottom: 3px solid #7B5EA7;
+      padding: 3rem 0 2.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.02em;
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 span {
+      color: #7B5EA7;
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      font-style: italic;
+      color: #b8a0d4;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── Main ── */
+    main {
+      flex: 1;
+      padding: 3rem 0;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      color: #7B5EA7;
+      border-bottom: 1px solid #2a1e3f;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #cccccc;
+      max-width: 720px;
+      line-height: 1.9;
+    }
+
+    /* ── Link Lists ── */
+    ul.link-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.link-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    ul.link-list li:last-child {
+      border-bottom: none;
+    }
+
+    ul.link-list li a {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #a07fd4;
+    }
+
+    ul.link-list li .link-desc {
+      font-size: 0.95rem;
+      color: #999999;
+      font-style: normal;
+      border-bottom: none;
+    }
+
+    /* ── Vault accent box ── */
+    .vault-note {
+      background-color: #0f0a1a;
+      border-left: 4px solid #7B5EA7;
+      padding: 1.2rem 1.5rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 3rem;
+    }
+
+    .vault-note p {
+      margin: 0;
+      color: #dddddd;
+    }
+
+    /* ── Footer ── */
+    footer {
+      background-color: #0f0f0f;
+      border-top: 3px solid #7B5EA7;
+      padding: 2.5rem 0;
+      text-align: center;
+    }
+
+    footer blockquote {
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #b8a0d4;
+      max-width: 640px;
+      margin: 0 auto 1rem;
+      line-height: 1.7;
+    }
+
+    footer blockquote cite {
+      display: block;
+      font-size: 0.9rem;
+      color: #7B5EA7;
+      font-style: normal;
+      margin-top: 0.4rem;
+      letter-spacing: 0.04em;
+    }
+
+    footer .contact {
+      font-size: 0.95rem;
+      color: #888888;
+      margin-top: 1rem;
+    }
+
+    footer .contact a {
+      color: #a07fd4;
+      border-bottom-color: transparent;
+    }
+
+    footer .contact a:hover {
+      border-bottom-color: #a07fd4;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      html { font-size: 16px; }
+
+      header h1 {
+        font-size: 1.7rem;
+      }
+
+      .tagline {
+        font-size: 1.1rem;
+      }
+
+      section h2 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header>
+    <div class="container">
+      <h1>NextXus <span>HumanCodex</span> Federation<br>— Sovereign Vault —</h1>
+      <p class="tagline">Your AI. Your Subject. Zero Drift.</p>
+    </div>
+  </header>
+
+  <!-- ═══════════════ MAIN ═══════════════ -->
+  <main>
+    <div class="container">
+
+      <!-- Description -->
+      <div class="vault-note">
+        <p>
+          This is the sovereign backup vault of the NextXus HumanCodex Federation.
+          All sites, content, and Federation assets are stored here as plain files.
+          No platform dependency. No single point of failure.
+        </p>
+      </div>
+
+      <!-- Live Federation Sites -->
+      <section aria-label="Live Federation Sites">
+        <h2>Live Federation Sites</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://next-xus.com" target="_blank" rel="noopener noreferrer">https://next-xus.com</a>
+            <span class="link-desc">NextXus Storefront</span>
+          </li>
+          <li>
+            <a href="https://nextxus.studio/custom" target="_blank" rel="noopener noreferrer">https://nextxus.studio/custom</a>
+            <span class="link-desc">Join the Federation</span>
+          </li>
+          <li>
+            <a href="https://nextxus.online" target="_blank" rel="noopener noreferrer">https://nextxus.online</a>
+            <span class="link-desc">The Network</span>
+          </li>
+          <li>
+            <a href="https://nextxus.org" target="_blank" rel="noopener noreferrer">https://nextxus.org</a>
+            <span class="link-desc">The Truth Tool</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Vault Contents -->
+      <section aria-label="Vault Contents">
+        <h2>Vault Contents</h2>
+        <ul class="link-list">
+          <li>
+            <a href="./apps/">./apps/</a>
+            <span class="link-desc">App Source Code</span>
+          </li>
+          <li>
+            <a href="./crawled-html/">./crawled-html/</a>
+            <span class="link-desc">Crawled Site HTML</span>
+          </li>
+          <li>
+            <a href="./raw-status/">./raw-status/</a>
+            <span class="link-desc">Status Records</span>
+          </li>
+          <li>
+            <a href="./trajectories/">./trajectories/</a>
+            <span class="link-desc">Build Trajectories</span>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer>
+    <div class="container">
+      <blockquote>
+        "Reality doesn't dampen our dreams. It makes them reasonable."
+        <cite>— NextXus HumanCodex Federation</cite>
+      </blockquote>
+      <p class="contact">Contact: <a href="mailto:keywebco@gmail.com">keywebco@gmail.com</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
