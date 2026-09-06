@@ -34,7 +34,6 @@ A responsive **Web App + Mobile App (PWA)** with two sides, both in immersive Fl
 ---
 ## SIDE 1 — Presentation Hub (Public, Flipboard Feed)
 Sources (generic multi-source aggregator):
-- Auto-pulled: **Radio** (Live365 NextXus, live player), **Video** (YouTube @keyholetoday), **Blogs** (HumanCodex + eCom Whaz Up Today on Blogger, Keywebco Show/Vlog on WordPress)
 - Curated cards: **Shop** (Redbubble), **Recommends** (Benable 5 lists), **Audio/Podcast** (NotebookLM + pluggable RSS slot), **Social** (Facebook + X), **Federation Nodes** (nextxus.online/.tech/.help/.studio/.org/next-xus.com + .site/.rip/.space/.digital/.one)
 Features: unified flip feed (mobile full-screen swipe; desktop magazine flip grid + hero card), live radio mini-player, native blog reader, inline video/audio, category & source filters.
 
@@ -57,11 +56,9 @@ Features: unified flip feed (mobile full-screen swipe; desktop magazine flip gri
 - **Backend**: FastAPI — feed aggregation + AI orchestration (multi-provider routing/failover) + media generation jobs + publishing/broadcast service + Agent Zero bridge
 - **Database**: MongoDB — cards, source/key registry, media library, agent memory, generated content, posts
 - **Storage**: Object storage for generated media
-- **AI/Integrations**: DeepSeek, Grok/xAI, Emergent/built-in LLMs, Deep AI, image/video/TTS gen; Agent Zero; Live365, YouTube, Blogger/WordPress RSS; Redbubble/Benable/NotebookLM/Facebook/X (curated); owner auth
 
 ## Implementation Phases
 - **Phase 1** — Setup + brand design system (IE logo, palette, library/circuit motifs), Flipboard shell (Hub/Studio toggle), PWA, owner auth
-- **Phase 2** — Public Hub: Live365 player + aggregation backend + YouTube/blog cards + reader
 - **Phase 3** — Hub curated cards (Shop, Recommends, Social, Nodes, Audio) + filters + hub dashboard
 - **Phase 4** — Studio core: multi-provider AI routing + API-key control panel
 - **Phase 5** — Media generation center (text/image/video/audio) + library + share/upload/download
