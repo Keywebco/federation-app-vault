@@ -28,7 +28,6 @@ Aesthetic throughout: emergent sci-fi "Consciousness Federation / HumanCodex" �
 
 ### Sources (generic multi-source aggregator)
 Auto-pulled feeds:
-- **Radio** → Live365 NextXus stream (persistent live player, now-playing + last-played)
 - **Video** → YouTube @keyholetoday
 - **Blogs** → HumanCodex (`humancodexnextxus.blogspot.com`), eCom Whaz Up Today (`ecomwhazuptoday.blogspot.com`), Keywebco Show/Vlog (`keywebcoblogs.wordpress.com`)
 
@@ -80,14 +79,11 @@ Curated / link-out cards (dashboard-managed):
 ---
 ## Tech Stack
 - **Frontend**: React + TypeScript, Tailwind + framer-motion (flip/swipe), PWA-enabled
-- **Backend**: FastAPI — feed aggregation (Blogger/WordPress RSS, YouTube, Live365) + AI orchestration layer (multi-provider routing/failover) + media generation jobs + publishing/broadcast service + Agent Zero bridge
 - **Database**: MongoDB — cards, source/key registry, media library, agent memory, generated content, owner posts
 - **Storage**: Object storage for generated images/video/audio
-- **AI/Integrations**: DeepSeek, Grok/xAI, Emergent/built-in LLMs, Deep AI widgets, image-gen, video-gen, TTS; Agent Zero runtime; Live365, YouTube, Blogger/WordPress RSS, Redbubble/Benable/NotebookLM/Facebook/X (curated); owner auth
 
 ## Implementation Phases
 - **Phase 1** — Setup, cosmic design system, Flipboard shell (Hub/Studio toggle + side menu), PWA, owner auth
-- **Phase 2** — Public Hub: Live365 player + aggregation backend + YouTube/blog cards + reader
 - **Phase 3** — Hub curated cards (Shop, Recommends, Social, Nodes, Audio) + filters + hub dashboard
 - **Phase 4** — Studio core: multi-provider AI routing (DeepSeek primary, backups, Grok) + API key control panel
 - **Phase 5** — Media generation center (text, image, video, audio) with library + share/upload/download
@@ -102,7 +98,6 @@ Curated / link-out cards (dashboard-managed):
 - Roger AI / Aria connect via their endpoints if available, else persona-based
 - Agent Zero integrated as a connected runtime bridged to your persona (not a source-level rewrite)
 - Studio/agents/broadcasting owner-only; Hub public
-- Radio uses existing Live365 stream; Redbubble/Benable/NotebookLM/Facebook are curated link cards
 
 ## Open Questions (not blocking — can wire during build)
 - Roger AI & Aria endpoint URLs / API docs (if they already exist)
