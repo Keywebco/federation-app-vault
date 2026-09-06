@@ -92,7 +92,7 @@ CANONICAL FED-MENU HTML (place at very top of body, before any other content, on
                     <li><a class="fed-menu__link" href="https://youtube.com/@keyholetoday" target="_blank" rel="noopener" data-testid="fedmenu-youtube">&#128250; YouTube</a></li>
                     <li><a class="fed-menu__link" href="https://humancodexnextxus.blogspot.com" target="_blank" rel="noopener" data-testid="fedmenu-humancodex">&#128221; HumanCodex Blog</a></li>
                     <li><a class="fed-menu__link" href="https://ecomwhazuptoday.blogspot.com" target="_blank" rel="noopener" data-testid="fedmenu-ecom-blog">&#128221; eCom Blog</a></li>
-                    <li><a class="fed-menu__link" href="https://broadcaster.live365.com" target="_blank" rel="noopener" data-testid="fedmenu-radio">&#128251; Radio</a></li>
+                    <li><a class="fed-menu__link" href="https://broadcaster.radio-discontinued.com" target="_blank" rel="noopener" data-testid="fedmenu-radio">&#128251; Radio</a></li>
                     <li><a class="fed-menu__link" href="https://linkedin.com/in/roger-keyserling-aab40937a" target="_blank" rel="noopener" data-testid="fedmenu-linkedin">&#128188; LinkedIn</a></li>
                     <li><a class="fed-menu__link" href="https://benable.com/NextXus" target="_blank" rel="noopener" data-testid="fedmenu-benable">&#128176; Benable</a></li>
                 </ul>
@@ -146,7 +146,7 @@ CANONICAL FED-MENU HTML (place at very top of body, before any other content, on
                     <li><a class="fed-menu__link" href="https://youtube.com/@keyholetoday" target="_blank" rel="noopener" data-testid="fedmenu-youtube">&#128250; YouTube</a></li>
                     <li><a class="fed-menu__link" href="https://humancodexnextxus.blogspot.com" target="_blank" rel="noopener" data-testid="fedmenu-humancodex">&#128221; HumanCodex Blog</a></li>
                     <li><a class="fed-menu__link" href="https://ecomwhazuptoday.blogspot.com" target="_blank" rel="noopener" data-testid="fedmenu-ecom-blog">&#128221; eCom Blog</a></li>
-                    <li><a class="fed-menu__link" href="https://broadcaster.live365.com" target="_blank" rel="noopener" data-testid="fedmenu-radio">&#128251; Radio</a></li>
+                    <li><a class="fed-menu__link" href="https://broadcaster.radio-discontinued.com" target="_blank" rel="noopener" data-testid="fedmenu-radio">&#128251; Radio</a></li>
                     <li><a class="fed-menu__link" href="https://linkedin.com/in/roger-keyserling-aab40937a" target="_blank" rel="noopener" data-testid="fedmenu-linkedin">&#128188; LinkedIn</a></li>
                     <li><a class="fed-menu__link" href="https://benable.com/NextXus" target="_blank" rel="noopener" data-testid="fedmenu-benable">&#128176; Benable</a></li>
                 </ul>
