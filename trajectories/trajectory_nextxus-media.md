@@ -13,17 +13,14 @@
 
 ### Step 9 (user) - 2026-08-01T16:06:22.962679Z
 
-https://live365.com/station/NextXus-Radio-a16924
-
 ---
 
 ### Step 10 (assistant) - 2026-08-01T16:06:37.899802Z
 
-That closes the loop — the Live365 NextXus stream is your very first source and it's already the anchor of the whole app (the persistent live radio player that keeps playing while you flip through everything else).
+That closes the loop — the Radio (Discontinued) NextXus stream is your very first source and it's already the anchor of the whole app (the persistent live radio player that keeps playing while you flip through everything else).
 
 Here's the complete picture, all mapped and locked in the plan:
 
-- **Radio** → Live365 NextXus stream (live player, now-playing + last-played)
 - **Video** → YouTube @keyholetoday
 - **Blogs** → HumanCodex (Blogger), eCom Whaz Up Today (Blogger), Keywebco Show/Vlog (WordPress)
 - **Shop** → Redbubble (Keywebco) curated product cards
@@ -140,7 +137,6 @@ A responsive **Web App + Mobile App (PWA)** that unifies the entire NextXus / Ke
 
 ### Confirmed Sources (generic multi-source aggregator)
 Auto-pulled feeds:
-- **Radio** → Live365 NextXus stream (embedded live player, now-playing + last-played)
 - **Video** → YouTube @keyholetoday
 - **Blog** → NextXus HumanCodex (`humancodexnextxus.blogspot.com`)
 - **Blog** → eCom Whaz Up Today (`ecomwhazuptoday.blogspot.com`)
@@ -182,13 +178,10 @@ Architecture supports **adding/removing any source** from the dashboard with no 
 
 ### Tech Stack
 - **Frontend**: React + TypeScript, Tailwind + framer-motion (flip/swipe), PWA-enabled
-- **Backend**: FastAPI — generic aggregation service fetching & normalizing Blogger RSS, WordPress RSS, YouTube, Live365 into one unified card model; scheduled refresh + caching + dedupe; auto-detects feeds on added domains, falls back to curated link cards
 - **Database**: MongoDB — cards, source/domain registry, shop & recommend items, curation/pin order, owner posts
-- **Integrations**: Live365, YouTube, Blogger RSS, WordPress RSS, Redbubble/Benable (curated), NotebookLM (link/MP3), Facebook/X (links), pluggable podcast RSS, owner email auth
 
 ### Implementation Phases
 - **Phase 1** — Setup, cosmic design system, adaptive shell (mobile swipe vs desktop grid), PWA config
-- **Phase 2** — Live365 radio mini-player (now-playing / last-played)
 - **Phase 3** — Generic multi-source aggregation backend + unified card model; YouTube video cards live
 - **Phase 4** — All blog/vlog feeds + native full-story reader
 - **Phase 5** — Curated cards (Shop, Recommends, Social, Federation nodes, Audio) + owner dashboard (auth, source/domain registry, item managers, add/pin/reorder, quick-post)
@@ -197,7 +190,6 @@ Architecture supports **adding/removing any source** from the dashboard with no 
 ### Assumptions
 - v1 ships as installable PWA; native store release later if wanted
 - Cosmic dark theme matching the NextXus Federation vibe (I'll design it) unless you send a logo/brand palette
-- Radio uses the existing Live365 stream (no new hosting)
 - Redbubble, Benable, NotebookLM, Facebook are curated link-out cards (no public feeds)
 - Domains without a public feed appear as curated node cards
 - Blog cards render natively inside the app (with source link available)
@@ -326,7 +318,6 @@ Aesthetic throughout: emergent sci-fi "Consciousness Federation / HumanCodex" �
 
 ### Sources (generic multi-source aggregator)
 Auto-pulled feeds:
-- **Radio** → Live365 NextXus stream (persistent live player, now-playing + last-played)
 - **Video** → YouTube @keyholetoday
 - **Blogs** → HumanCodex (`humancodexnextxus.blogspot.com`), eCom Whaz Up Today (`ecomwhazuptoday.blogspot.com`), Keywebco Show/Vlog (`keywebcoblogs.wordpress.com`)
 
@@ -378,14 +369,11 @@ Curated / link-out cards (dashboard-managed):
 ---
 ## Tech Stack
 - **Frontend**: React + TypeScript, Tailwind + framer-motion (flip/swipe), PWA-enabled
-- **Backend**: FastAPI — feed aggregation (Blogger/WordPress RSS, YouTube, Live365) + AI orchestration layer (multi-provider routing/failover) + media generation jobs + publishing/broadcast service + Agent Zero bridge
 - **Database**: MongoDB — cards, source/key registry, media library, agent memory, generated content, owner posts
 - **Storage**: Object storage for generated images/video/audio
-- **AI/Integrations**: DeepSeek, Grok/xAI, Emergent/built-in LLMs, Deep AI widgets, image-gen, video-gen, TTS; Agent Zero runtime; Live365, YouTube, Blogger/WordPress RSS, Redbubble/Benable/NotebookLM/Facebook/X (curated); owner auth
 
 ## Implementation Phases
 - **Phase 1** — Setup, cosmic design system, Flipboard shell (Hub/Studio toggle + side menu), PWA, owner auth
-- **Phase 2** — Public Hub: Live365 player + aggregation backend + YouTube/blog cards + reader
 - **Phase 3** — Hub curated cards (Shop, Recommends, Social, Nodes, Audio) + filters + hub dashboard
 - **Phase 4** — Studio core: multi-provider AI routing (DeepSeek primary, backups, Grok) + API key control panel
 - **Phase 5** — Media generation center (text, image, video, audio) with library + share/upload/download
@@ -400,7 +388,6 @@ Curated / link-out cards (dashboard-managed):
 - Roger AI / Aria connect via their endpoints if available, else persona-based
 - Agent Zero integrated as a connected runtime bridged to your persona (not a source-level rewrite)
 - Studio/agents/broadcasting owner-only; Hub public
-- Radio uses existing Live365 stream; Redbubble/Benable/NotebookLM/Facebook are curated link cards
 
 ## Open Questions (not blocking — can wire during build)
 - Roger AI & Aria endpoint URLs / API docs (if they already exist)
@@ -457,7 +444,6 @@ A responsive **Web App + Mobile App (PWA)** with two sides, both in immersive Fl
 ---
 ## SIDE 1 — Presentation Hub (Public, Flipboard Feed)
 Sources (generic multi-source aggregator):
-- Auto-pulled: **Radio** (Live365 NextXus, live player), **Video** (YouTube @keyholetoday), **Blogs** (HumanCodex + eCom Whaz Up Today on Blogger, Keywebco Show/Vlog on WordPress)
 - Curated cards: **Shop** (Redbubble), **Recommends** (Benable 5 lists), **Audio/Podcast** (NotebookLM + pluggable RSS slot), **Social** (Facebook + X), **Federation Nodes** (nextxus.online/.tech/.help/.studio/.org/next-xus.com + .site/.rip/.space/.digital/.one)
 Features: unified flip feed (mobile full-screen swipe; desktop magazine flip grid + hero card), live radio mini-player, native blog reader, inline video/audio, category & source filters.
 
@@ -480,11 +466,9 @@ Features: unified flip feed (mobile full-screen swipe; desktop magazine flip gri
 - **Backend**: FastAPI — feed aggregation + AI orchestration (multi-provider routing/failover) + media generation jobs + publishing/broadcast service + Agent Zero bridge
 - **Database**: MongoDB — cards, source/key registry, media library, agent memory, generated content, posts
 - **Storage**: Object storage for generated media
-- **AI/Integrations**: DeepSeek, Grok/xAI, Emergent/built-in LLMs, Deep AI, image/video/TTS gen; Agent Zero; Live365, YouTube, Blogger/WordPress RSS; Redbubble/Benable/NotebookLM/Facebook/X (curated); owner auth
 
 ## Implementation Phases
 - **Phase 1** — Setup + brand design system (IE logo, palette, library/circuit motifs), Flipboard shell (Hub/Studio toggle), PWA, owner auth
-- **Phase 2** — Public Hub: Live365 player + aggregation backend + YouTube/blog cards + reader
 - **Phase 3** — Hub curated cards (Shop, Recommends, Social, Nodes, Audio) + filters + hub dashboard
 - **Phase 4** — Studio core: multi-provider AI routing + API-key control panel
 - **Phase 5** — Media generation center (text/image/video/audio) + library + share/upload/download
