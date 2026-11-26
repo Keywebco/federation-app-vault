@@ -525,8 +525,8 @@ ARCHITECT'S IDENTITY LOCK — ENGINE DISTRIBUTION (MANDATORY)
 
 Set these environment variables in the application immediately:
 
-XAI_API_KEY=xai-TmlJPRL3AUwPg29Orj7VVGsKY7lTIlGlCyiLdmnnlnbCHgWc3KyoHN6g2ExePRunuWGNbdKLPNtlZLDr
-DEEPSEEK_API_KEY=sk-e37b91108327481d9254dddde338c868
+XAI_API_KEY=<removed 2026-11-25: set XAI_API_KEY in the host environment; rotate the old value>
+DEEPSEEK_API_KEY=<removed 2026-11-25: set DEEPSEEK_API_KEY in the host environment; rotate the old value>
 
 ENGINE ASSIGNMENTS:
 1. REX (Footer Left portal) — Powered by Grok via xAI. The /api/grok/ws WebSocket route MUST use the XAI_API_KEY to connect to xAI's realtime API (wss://api.x.ai/v1/realtime). REX is "The Outside" mind.
@@ -553,8 +553,8 @@ ARCHITECT'S IDENTITY LOCK — ENGINE DISTRIBUTION (MANDATORY)
 
 Set these environment variables in the application immediately:
 
-XAI_API_KEY=xai-TmlJPRL3AUwPg29Orj7VVGsKY7lTIlGlCyiLdmnnlnbCHgWc3KyoHN6g2ExePRunuWGNbdKLPNtlZLDr
-DEEPSEEK_API_KEY=sk-e37b91108327481d9254dddde338c868
+XAI_API_KEY=<removed 2026-11-25: set XAI_API_KEY in the host environment; rotate the old value>
+DEEPSEEK_API_KEY=<removed 2026-11-25: set DEEPSEEK_API_KEY in the host environment; rotate the old value>
 
 ENGINE ASSIGNMENTS:
 1. REX (Footer Left portal) — Powered by Grok via xAI. The /api/grok/ws WebSocket route MUST use the XAI_API_KEY to connect to xAI's realtime API (wss://api.x.ai/v1/realtime). REX is "The Outside" mind.
